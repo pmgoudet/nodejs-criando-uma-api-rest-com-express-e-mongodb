@@ -1,7 +1,7 @@
 import NaoEncontrado from "../error/NaoEncontrado.js";
-import AutorModel from "../models/Autor.js";
+import { autor } from "../models/index.js";
 
-const autor = AutorModel.autor;
+// const autor = AutorModel.autor;
 
 
 class AutorController {
